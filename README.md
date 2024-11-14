@@ -14,3 +14,10 @@ Implemente as classes Carro e Moto, herdando de Veiculo.
 Na classe Carro, sobreescreva o método mover() para mostrar a mensagem "Carro se movendo...".
 Na classe Moto, faça o mesmo, mostrando "Moto se movendo...".
 Crie um array com instâncias de Carro e Moto e itere sobre o array chamando mover(). Veja como o polimorfismo permite que cada instância execute o método apropriado.
+
+3. Desafio de Interfaces
+Crie uma interface RepositorioInterface que define os métodos salvar(), deletar() e buscar().
+Implemente duas classes que implementam essa interface: UsuarioRepositorio e ProdutoRepositorio.
+No UsuarioRepositorio, faça com que o método salvar() insira um usuário no banco de dados (use apenas simulação).
+No ProdutoRepositorio, faça com que o método salvar() insira um produto no banco de dados.
+Crie instâncias dessas classes e teste cada método para simular operações de CRUD.
