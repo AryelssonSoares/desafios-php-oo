@@ -21,3 +21,8 @@ Implemente duas classes que implementam essa interface: UsuarioRepositorio e Pro
 No UsuarioRepositorio, faça com que o método salvar() insira um usuário no banco de dados (use apenas simulação).
 No ProdutoRepositorio, faça com que o método salvar() insira um produto no banco de dados.
 Crie instâncias dessas classes e teste cada método para simular operações de CRUD.
+
+4. Desafio de Atributos e Métodos Estáticos
+Crie uma classe Contador com um atributo estático contador e métodos estáticos incrementar() e exibirContador().
+Toda vez que incrementar() for chamado, ele deve aumentar o valor de contador em 1.
+Teste chamando o método incrementar() algumas vezes e exiba o valor atual de contador sem instanciar a classe.
