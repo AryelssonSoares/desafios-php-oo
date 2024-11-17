@@ -26,3 +26,10 @@ Crie instâncias dessas classes e teste cada método para simular operações de
 Crie uma classe Contador com um atributo estático contador e métodos estáticos incrementar() e exibirContador().
 Toda vez que incrementar() for chamado, ele deve aumentar o valor de contador em 1.
 Teste chamando o método incrementar() algumas vezes e exiba o valor atual de contador sem instanciar a classe.
+
+5. Sistema de Biblioteca
+Crie uma classe Livro com atributos como titulo, autor e numeroDePaginas.
+Crie uma interface Emprestavel com métodos emprestar() e devolver().
+Crie uma classe LivroEmprestavel que extende Livro e implemente a interface Emprestavel.
+Em LivroEmprestavel, implemente uma lógica para controlar se o livro está emprestado ou disponível.
+Por fim, crie um script para emprestar e devolver livros, e implemente um contador de quantos livros estão emprestados.
